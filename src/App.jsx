@@ -1,5 +1,5 @@
  import Home from './pages/home/Home'
- import { BrowserRouter, Router, Route } from 'react-router-dom'
+ import { BrowserRouter, Routes, Route } from 'react-router-dom'
  
  import About from './pages/about/About'
  import Contact from './pages/contact/Contax'
@@ -12,7 +12,7 @@ import Navbar from './components/Navbar'
 const App = () => {
   return (
     <BrowserRouter>
-    <Navbar/>
+      <Navbar/>
       <Home/>
       <About/>
       <Contact/>
